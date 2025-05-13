@@ -3,7 +3,7 @@
 
 <section class="hero">
     <div class="hero-content">
-        <h2>Добро пожаловать в PC Club</h2>
+        <h2>Добро пожаловать в SLAVA TECH</h2>
         <p>Лучшие игровые устройства для настоящих геймеров</p>
         <a href="products.php" class="btn">Посмотреть устройства</a>
     </div>

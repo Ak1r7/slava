@@ -11,7 +11,7 @@
     <header>
         <div class="container">
             <div class="logo">
-                <h1><a href="index.php">PC Club</a></h1>
+                <h1><a href="index.php">SLAVA TECH</a></h1>
             </div>
             <nav>
                 <ul>

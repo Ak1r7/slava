@@ -4,7 +4,7 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <h3>О нас</h3>
-                    <p>PC Club - лучший выбор игровых устройств для настоящих геймеров.</p>
+                    <p>SLAVA TECH - лучший выбор игровых устройств для настоящих геймеров.</p>
                 </div>
                 <div class="footer-section">
                     <h3>Контакты</h3>
@@ -21,7 +21,7 @@
                 </div>
             </div>
             <div class="copyright">
-                <p>&copy; <?php echo date('Y'); ?> PC Club. Все права защищены.</p>
+                <p>&copy; <?php echo date('Y'); ?> SLAVA TECH. Все права защищены.</p>
             </div>
         </div>
     </footer>
