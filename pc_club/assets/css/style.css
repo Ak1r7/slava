@@ -64,7 +64,7 @@ a {
 }
 
 header {
-    background-color: #2c3e50;
+    background-color: #a21f08;
     color: white;
     padding: 15px 0;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -145,7 +145,7 @@ footer {
 }
 
 .hero {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/images/hero-bg.jpg') no-repeat center center;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/hero-bg.jpg') no-repeat center center;
     background-size: cover;
     color: white;
     padding: 100px 0;

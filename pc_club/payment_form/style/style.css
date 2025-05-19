@@ -1,0 +1,290 @@
+.payment-body {
+    font-family: "Work Sans", sans-serif;
+    background-color: #e0e8f9;
+    padding: 20px;
+}
+
+.chip {
+    max-height: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 30px 20px;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    padding-top: 150px;
+}
+
+.card-display {
+    width: 400px;
+    margin-bottom: 20px;
+    text-align: start;
+}
+
+.card {
+    margin-bottom: 20px;
+    position: relative;
+    bottom: 440px;
+    width: 360px;
+    height: 200px;
+    background-image: url('../img/card-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+    box-shadow: 0 15px 8px rgba(0, 0, 0, 0.2);
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+}
+
+.cardBack {
+    margin-bottom: 20px;
+    position: relative;
+    bottom: 440px;
+    width: 360px;
+    height: 200px;
+    background-image: url('../img/card-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+    box-shadow: 0 15px 8px rgba(0, 0, 0, 0.2);
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+
+#black-line {
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    left: 0px;
+}
+
+#cvv {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+}
+
+#cvv>h2 {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 15px;
+    color: black;
+    background-color: white;
+    width: 100%;
+    height: 40px;
+    border-radius: 3px;
+    margin: 0;
+    padding-right: 5px;
+}
+
+#cvv>h5 {
+    margin-bottom: 10px;
+}
+
+.cardBack>img {
+    width: 100px;
+    margin-bottom: 20px
+}
+
+.logo-cards {
+    display: flex;
+    justify-content: space-between;
+}
+.logo-cards > div  {
+overflow: hidden;
+    height: 70px;
+    width: 80px;
+}
+.logo-cards > div >div {
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+transition: all 0.5s ease-in-out;
+}
+.logo-cards > div > div >img{
+margin-bottom: 40px;
+}
+.card-number {
+    font-size: 1.5rem;
+    letter-spacing: 6px;
+    margin-top: -25px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    letter-spacing: 2px;
+    overflow: hidden;
+}
+
+.marking {
+    border: 1px solid white;
+    padding: 3px;
+    transition: .5s;
+    position: relative;
+    border-radius: 4px;
+}
+
+.holder {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+    position: relative;
+}
+
+.expiry {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.card-subtitle {
+    letter-spacing: 3px;
+    font-size: 0.6rem;
+
+}
+
+.card-details {
+    width: 360px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    position: sticky;
+}
+
+.card-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    width: 450px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #333;
+}
+
+
+.card-info {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.cvv {
+    padding-top: 5px;
+    padding-right: 97px;
+    font-size: 10px;
+}
+
+.form-group {
+    font-size: 12px;
+}
+
+.form-group input,
+.form-group select {
+    width: 430px;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    background-color: #fafafa;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+
+.expiry-group {
+    display: flex;
+    gap: 15px;
+}
+
+.expiry-group select {
+    max-height: 45px;
+    max-width: 40%;
+    font-size: 0.9rem;
+    flex: 1;
+}
+
+.card-cvv {
+    margin-left: 25px;
+    max-width: 100px;
+}
+
+.submit-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 0;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+
+
+.digit {
+    display: inline-block;
+    width: 20px;
+    height: 30px;
+    overflow: hidden;
+    position: relative;
+}
+
+.digit span {
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 24px;
+    transition: transform 0.3s ease-in-out;
+}
+#space{
+    width: 10px;
+}

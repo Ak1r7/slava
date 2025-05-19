@@ -48,7 +48,7 @@
                 echo '<h3>' . htmlspecialchars($row['name']) . '</h3>';
                 echo '<p class="price">' . number_format($row['price'], 2) . ' ₽</p>';
                 echo '<p class="stock">' . ($row['stock'] > 0 ? 'В наличии' : 'Нет в наличии') . '</p>';
-                echo '<a href="product.php?id=' . $row['id'] . '" class="btn">Подробнее</a>';
+                echo '<a href="products.php?id=' . $row['id'] . '" class="btn">Подробнее</a>';
                 if (isLoggedIn() && $row['stock'] > 0) {
                     echo '<form action="add_to_cart.php" method="post" class="add-to-cart-form">';
                     echo '<input type="hidden" name="product_id" value="' . $row['id'] . '">';
