@@ -64,7 +64,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <?php require_once 'includes/header.php'; ?>
 
 <section class="checkout">
-    <link rel="stylesheet" href="payment_form/style/style.css">
     <h2>Оформление заказа</h2>
     
     <div class="checkout-summary">
@@ -99,9 +98,28 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <form action="checkout.php" method="post" class="checkout-form">
         <h3>Данные для доставки</h3>
         
-        <?php include 'payment_form/index.html'; ?>
+        <div class="form-group">
+            <label for="fullname">ФИО:</label>
+            <input type="text" id="fullname" name="fullname" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="address">Адрес доставки:</label>
+            <textarea id="address" name="address" required></textarea>
+        </div>
+        
+        <div class="form-group">
+            <label for="phone">Телефон:</label>
+            <input type="tel" id="phone" name="phone" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="comments">Комментарий к заказу:</label>
+            <textarea id="comments" name="comments"></textarea>
+        </div>
+        
+        <button type="submit" class="btn">Подтвердить заказ</button>
     </form>
-    <script src="payment_form/script/script.js"></script>
 </section>
 
 <?php require_once 'includes/footer.php'; ?>
